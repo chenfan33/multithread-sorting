@@ -1,0 +1,5 @@
+The run time of using multithreads are always faster than that of using multiprocess.
+As n increases, the run time of using processes approaches 0.5, while the run time of using threads approaches 0.3.
+I think the reason is because using multiprocess, duplication for new process limits the run time, while threads do not. 
+And the context switching between processes takes longer than between threads.
+
